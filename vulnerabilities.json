@@ -1,0 +1,44 @@
+[
+  {
+    "vulnerability_id": "CVE-2025-0001",
+    "notes": "Path: active -> yes -> (any) -> (any)",
+    "cvss_metrics": {
+      "ac": "Low",
+      "pr": "None",
+      "ui": "None",
+      "c": "High",
+      "i": "Low",
+      "a": "Low"
+    },
+    "exploit_maturity": "active",
+    "system_context": "high"
+  },
+  {
+    "vulnerability_id": "CVE-2025-0002",
+    "notes": "Path: poc -> no -> total -> high",
+    "cvss_metrics": {
+      "ac": "High",
+      "pr": "Low",
+      "ui": "Required",
+      "c": "High",
+      "i": "High",
+      "a": "High"
+    },
+    "exploit_maturity": "poc",
+    "system_context": "high"
+  },
+  {
+    "vulnerability_id": "CVE-2025-0003",
+    "notes": "Path: none -> (any) -> partial -> (any)",
+    "cvss_metrics": {
+      "ac": "High",
+      "pr": "Low",
+      "ui": "Required",
+      "c": "High",
+      "i": "Low",
+      "a": "Low"
+    },
+    "exploit_maturity": "none",
+    "system_context": "medium"
+  }
+]
